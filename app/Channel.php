@@ -32,8 +32,8 @@ class Channel extends Model
      * @param  '$data'
      * @return model function that perform the database functions for new entry
      */
-    public static function getChannelDetail() {        
-       $data = Channel::get();                     
+    public static function getChannelDetail($id) {        
+       $data = Channel::where('id',$id)->first();                     
        return (!empty($data)) ? $data->toArray() : array();
     }
     

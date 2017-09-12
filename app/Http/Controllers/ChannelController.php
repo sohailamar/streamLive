@@ -41,7 +41,7 @@ class ChannelController extends \App\Http\Controllers\Controller
      * @author Sohail Amar Aftab <sohailamar09@gmail.com>
      */
     public function getChannelDetail($id) {    
-       $channel = Channel::getChannelDetail($id);         
+       $channel = Channel::getChannelDetail($id);       
         return view('channels/getChannelDetail', compact("channel"));
     }
    
