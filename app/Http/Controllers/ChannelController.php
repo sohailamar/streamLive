@@ -12,10 +12,8 @@ use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Redirect;
 use Validator;
-use Corcel\Post as Corcel;
-use App\Post;
-
-class ChannelController extends Controller
+use App\Channel;
+class ChannelController extends \App\Http\Controllers\Controller
 {
         
     /**
@@ -28,9 +26,23 @@ class ChannelController extends Controller
      * @return View for home page
      * @author Sohail Amar Aftab <sohailamar09@gmail.com>
      */
-    public function index() {    
-       $posts = Post::getAllChannels();       
-        return view('home/index', compact("posts"));
+    public function getAllChannels() {    
+       $channels = Channel::getAllChannels();         
+        return view('channels/getAllChannels', compact("channels"));
+    }
+    /**
+     * function index
+     * 
+     * Main welcome page for site that shows all the content
+     * 
+     * @param type empty
+     * 
+     * @return View for home page
+     * @author Sohail Amar Aftab <sohailamar09@gmail.com>
+     */
+    public function getChannelDetail($id) {    
+       $channel = Channel::getChannelDetail($id);         
+        return view('channels/getChannelDetail', compact("channel"));
     }
    
 }

@@ -9,7 +9,7 @@
     <div class="top-nav">
         <ul>
             <li><a href="index.html">Home</a><p>My Forntpage</p></li>
-            <li><a href="#">About</a><p>About this blog</p></li>
+            <li><a href="{{url('/channels')}}">Channels</a><p></p></li>
             <li><a href="categories.html">Categories</a><p>Be Ur Self</p></li>
             <li><a href="#">Economics</a><p>Human Needs</p></li>
             <li><a href="#">Health</a><p>Take A Trip</p></li>

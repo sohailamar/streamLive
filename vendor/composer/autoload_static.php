@@ -357,6 +357,13 @@ class ComposerStaticInit4f6b3b46e9b20519cf4ea7aaafb0f703
                 0 => __DIR__ . '/..' . '/doctrine/collections/lib',
             ),
         ),
+        'A' => 
+        array (
+            'Alaouy\\Youtube\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/alaouy/youtube/src',
+            ),
+        ),
     );
 
     public static $classMap = array (
@@ -365,12 +372,17 @@ class ComposerStaticInit4f6b3b46e9b20519cf4ea7aaafb0f703
         'AddPermissionGroupIdToPermissionsTable' => __DIR__ . '/../..' . '/database/migrations/2017_01_15_000000_add_permission_group_id_to_permissions_table.php',
         'AddRouteToMenuItemsTable' => __DIR__ . '/../..' . '/database/migrations/2017_01_13_000000_add_route_to_menu_items_table.php',
         'AddVoyagerUserFields' => __DIR__ . '/../..' . '/database/migrations/2016_01_01_000000_add_voyager_user_fields.php',
+        'Alaouy\\Youtube\\Facades\\Youtube' => __DIR__ . '/..' . '/alaouy/youtube/src/Alaouy/Youtube/Facades/Youtube.php',
+        'Alaouy\\Youtube\\Youtube' => __DIR__ . '/..' . '/alaouy/youtube/src/Alaouy/Youtube/Youtube.php',
+        'Alaouy\\Youtube\\YoutubeServiceProvider' => __DIR__ . '/..' . '/alaouy/youtube/src/Alaouy/Youtube/YoutubeServiceProvider.php',
+        'App\\Channel' => __DIR__ . '/../..' . '/app/Channel.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
+        'App\\Http\\Controllers\\ChannelController' => __DIR__ . '/../..' . '/app/Http/Controllers/ChannelController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -378,11 +390,14 @@ class ComposerStaticInit4f6b3b46e9b20519cf4ea7aaafb0f703
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Post' => __DIR__ . '/../..' . '/app/Post.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Taxonomy' => __DIR__ . '/../..' . '/app/Taxonomy.php',
+        'App\\Term' => __DIR__ . '/../..' . '/app/Category.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'Arrilot\\Widgets\\AbstractWidget' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/AbstractWidget.php',
         'Arrilot\\Widgets\\AsyncFacade' => __DIR__ . '/..' . '/arrilot/laravel-widgets/src/AsyncFacade.php',

@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Redirect;
 use Validator;
 use App\Post;
 use App\Taxonomy;
+use App\Channel;
 
 class HomeController extends Controller
 {
@@ -29,10 +30,7 @@ class HomeController extends Controller
      * @author Sohail Amar Aftab <sohailamar09@gmail.com>
      */
     public function index() {    
-       $posts = Post::getAllChannels();              
-       echo '<pre>';
-       var_dump($posts);
-       die;
+//       $posts = Post::getAllChannels();                     
         return view('home/index', compact("posts"));
     }
    

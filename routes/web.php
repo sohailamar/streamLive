@@ -12,9 +12,12 @@
  */
 
 Route::get("/", "HomeController@index");
-
+Route::get("/channels", "ChannelController@getAllChannels");
+Route::get("/channels/{id}", "ChannelController@getChannelDetail");
 
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
+
+
