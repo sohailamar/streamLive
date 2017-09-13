@@ -17,7 +17,13 @@
         <meta property="og:description"        content="streamLive,live channels,youtube videos,youtube live,live videos." />
         <meta property="og:image"              content="http://trendingdiveos.com/public/images/logo.png" />
         <!--meta tags-->
-
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-4937126499725533",
+            enable_page_level_ads: true
+          });
+        </script>
         @include('layouts.head')
     </head>
     <body id="main_body" class="preload">
