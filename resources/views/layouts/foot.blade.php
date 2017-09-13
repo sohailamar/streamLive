@@ -1,6 +1,6 @@
-<script src="{{ asset('js') }}/toucheffects-min.js"></script>
+<!--<script src="{{ asset('js') }}/toucheffects-min.js"></script>
 
-<!--<script src="{{ asset('public/js') }}/jquery-migrate-git.js"></script>-->
+<script src="{{ asset('public/js') }}/jquery-migrate-git.js"></script>
 <script src="{{ asset('js') }}/owl.carousel.min.js"></script>
 <script src="{{ asset('js') }}/bootstrap.min.js"></script>
 <script src="{{ asset('js') }}/selecter.js"></script>
@@ -11,12 +11,12 @@
 <script src="{{ asset('js') }}/jquery.form.js"></script>
 <script src="{{ asset('js') }}/jquery.maskedinput.min.js"></script>
 
-<!--<script src="{{ asset('public/js') }}/wow.min.js"></script>-->
+<script src="{{ asset('public/js') }}/wow.min.js"></script>
 
 <script src="{{ asset('js') }}/custom.js"></script>
 <script src="{{ asset('js') }}/dev.js"></script>
 <script src="{{ asset('js') }}/formSubmit.js"></script>
-<script src="{{ asset('js') }}/numeric.js"></script>
+<script src="{{ asset('js') }}/numeric.js"></script>-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
