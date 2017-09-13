@@ -19,3 +19,7 @@
     RewriteCond %{REQUEST_URI} !^/public/
     RewriteRule ^(css|js|images)/(.*)$ public/$1/$2 [L,NC]
 </IfModule>
+<IfModule pagespeed_module>
+   ModPagespeed on
+   ModPagespeedEnableFilters extend_cache
+</IfModule>

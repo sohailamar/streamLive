@@ -30,3 +30,8 @@
     # cache CSS files for 24 hours
     ExpiresByType text/css "access plus 24 hours"
 </IfModule>
+
+<IfModule pagespeed_module>
+   ModPagespeed on
+   ModPagespeedEnableFilters extend_cache
+</IfModule>
