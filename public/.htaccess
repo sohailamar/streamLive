@@ -1,6 +1,7 @@
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
-        Options -MultiViews        
+        Options -MultiViews  
+        
     </IfModule>
     
     RewriteEngine On
@@ -18,6 +19,12 @@
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 
+    
+</IfModule>
+
+<IfModule pagespeed_module>
+   ModPagespeed on
+   ModPagespeedEnableFilters extend_cache
      # Activate mod_expires for this directory
     ExpiresActive on
 
@@ -29,9 +36,4 @@
 
     # cache CSS files for 24 hours
     ExpiresByType text/css "access plus 24 hours"
-</IfModule>
-
-<IfModule pagespeed_module>
-   ModPagespeed on
-   ModPagespeedEnableFilters extend_cache
 </IfModule>

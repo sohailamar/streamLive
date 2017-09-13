@@ -18,7 +18,7 @@
             @foreach($channels as $key=>$channel)            
             <div class="grid">
                 <h3>{{$channel['title']}}</h3>
-                <a href="{{url('/channels',['id'=>$channel['id']])}}"><img src="{{url('/')}}/storage/app/public/{{$channel['image']}}" title="video-name" /></a>
+                <a href="{{url('/channels',['id'=>$channel['id']])}}"><img src="{{url('/streamLive')}}/storage/app/public/{{$channel['image']}}" title="video-name" /></a>
                 <div class="time">
                     <span>00:10</span>
                 </div>
