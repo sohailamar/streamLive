@@ -11,11 +11,11 @@
         <!--End site meta data-->
 
         <!--Facebook metadata-->
-        <meta property="og:url"                content="https://trendingdiveos.com/" />
+        <meta property="og:url"                content="http://trendingdiveos.com/" />
         <meta property="og:type"               content="website" />
         <meta property="og:title"              content="TrendingDiveos" />
         <meta property="og:description"        content="streamLive,live channels,youtube videos,youtube live,live videos." />
-        <meta property="og:image"              content="http://trendingdiveos.com/public/images/logo.png" />
+        <meta property="og:image"              content="http://trendingdiveos.com/images/logo.png" />
         <!--meta tags-->
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <script>
